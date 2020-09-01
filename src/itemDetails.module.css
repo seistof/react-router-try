@@ -1,0 +1,57 @@
+.details {
+    padding-top: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E4E4E1;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    border-radius: 7px;
+    width: 60vw;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 15px #000;
+
+}
+
+.title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.by {
+    padding: 5px 0;
+    font-size: .9rem;
+}
+
+.author {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.img {
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.description {
+    max-width: 75%;
+    text-align: center;
+    padding: 5px;
+}
+
+.preview {
+    margin: 10px 0;
+    padding: 5px;
+    text-decoration: none;
+    background: #494f52;
+    border-radius: 5px;
+    color: #ffffff;
+}
